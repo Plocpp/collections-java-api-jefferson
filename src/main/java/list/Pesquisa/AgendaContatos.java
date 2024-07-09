@@ -20,6 +20,7 @@ public class AgendaContatos {
 
     }
 
+
     public Set<Contato> pesquisarContatos(String nome){
         Set<Contato>contatosPorNome= new HashSet<>();
         for(Contato c : contatoSet){
